@@ -1150,4 +1150,146 @@
   }
  
 
-  
+  .blog-area {
+    padding: 120px 0 90px
+}
+@media (max-width:991px) {
+  .blog-area {
+      padding: 60px 0 30px
+  }
+}
+@media (max-width:767px) {
+  .blog-area .col-lg-6:last-child .single-blog {
+      margin-bottom: 0
+  }
+}
+.blog-area {
+  padding: 120px 0px 90px; }
+  @media (max-width: 991px) {
+    .blog-area {
+      padding: 60px 0px 30px; } }
+  @media (max-width: 767px) {
+    .blog-area .col-lg-6:last-child .single-blog {
+      margin-bottom: 0px; } }
+      
+      
+.section-title {
+  padding-bottom: 80px
+}
+.top-sec{
+  border-bottom: 1px dashed #bb9236;
+}
+
+@media (max-width:991px) {
+  .section-title {
+      padding-bottom: 30px
+  }
+}
+
+.section-title h1 {
+  margin-bottom: 15px;
+  font-size: 36px;
+  text-transform: capitalize
+}
+
+@media (max-width:991px) {
+  .section-title h1 {
+      margin-bottom: 10px;
+      font-size: 30px
+  }
+}
+
+@media (max-width:575px) {
+  .section-title h1 {
+      font-size: 25px
+  }
+}
+
+@media (max-width:991px) {
+  .section-title h1 br {
+      display: none
+  }
+}
+
+.section-title p {
+  margin-bottom: 0
+}
+
+@media (max-width:991px) {
+  .section-title p br {
+      display: none
+  }
+}
+
+.blog-area {
+  padding: 120px 0 90px
+}
+
+@media (max-width:991px) {
+  .blog-area {
+      padding: 60px 0 30px
+  }
+}
+
+@media (max-width:767px) {
+  .blog-area .col-lg-6:last-child .single-blog {
+      margin-bottom: 0
+  }
+}
+
+.single-blog {
+  padding: 20px;
+  background: #000
+}
+
+.single-blog .blog-thumb {
+  overflow: hidden
+}
+
+.single-blog .blog-thumb img {
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s
+}
+
+@media (max-width:767px) {
+  .single-blog .blog-thumb {
+      margin-bottom: 30px
+  }
+}
+
+.single-blog .blog-details .blog-meta {
+  margin-bottom: 30px
+}
+
+.single-blog .blog-details .blog-meta a {
+  padding-right: 20px;
+  color: #777
+}
+
+.single-blog .blog-details .blog-meta a i.fa {
+  padding-right: 10px;
+  color: #fff
+}
+
+.single-blog .blog-details .blog-title {
+  margin-bottom: 20px;
+  color: #fff;
+  display: inline-block
+}
+.dfjc{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.brnchimg{
+  padding-bottom: 20px;
+  width: 100% !important;
+}
+
+.single-blog:hover .blog-title {
+  color: #ba9236
+}
